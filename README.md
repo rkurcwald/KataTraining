@@ -1,1 +1,1 @@
-Kata Solousions with tests
+Kata Solousions with tests:
