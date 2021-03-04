@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="StringUtilsTest" time="0.046" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="StringUtilsTest" time="0.031" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="PL"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Robert\AppData\Local\Temp\surefire3960190169975338300\surefirebooter8778219185108854896.jar C:\Users\Robert\AppData\Local\Temp\surefire3960190169975338300 2021-03-05T00-00-04_291-jvmRun1 surefire100448007042658867tmp surefire_07547718659515619192tmp"/>
+    <property name="sun.java.command" value="C:\Users\Robert\AppData\Local\Temp\surefire8661570569693759412\surefirebooter8983278822770413529.jar C:\Users\Robert\AppData\Local\Temp\surefire8661570569693759412 2021-03-05T00-14-49_486-jvmRun1 surefire6183481843498726198tmp surefire_02242876855919111393tmp"/>
     <property name="surefire.test.class.path" value="E:\GitRepos\KataTraining\RegExp\target\test-classes;E:\GitRepos\KataTraining\RegExp\target\classes;C:\Users\Robert\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.0-M1\junit-jupiter-5.8.0-M1.jar;C:\Users\Robert\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.0-M1\junit-jupiter-api-5.8.0-M1.jar;C:\Users\Robert\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\Robert\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Robert\.m2\repository\org\junit\platform\junit-platform-commons\1.8.0-M1\junit-platform-commons-1.8.0-M1.jar;C:\Users\Robert\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.0-M1\junit-jupiter-params-5.8.0-M1.jar;C:\Users\Robert\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.0-M1\junit-jupiter-engine-5.8.0-M1.jar;C:\Users\Robert\.m2\repository\org\junit\platform\junit-platform-engine\1.8.0-M1\junit-platform-engine-1.8.0-M1.jar;C:\Users\Robert\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.4.20\kotlin-stdlib-jdk8-1.4.20.jar;C:\Users\Robert\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.4.20\kotlin-stdlib-1.4.20.jar;C:\Users\Robert\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.4.20\kotlin-stdlib-common-1.4.20.jar;C:\Users\Robert\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\Robert\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.4.20\kotlin-stdlib-jdk7-1.4.20.jar;C:\Users\Robert\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Robert\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Robert"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Robert\AppData\Local\Temp\surefire3960190169975338300\surefirebooter8778219185108854896.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Robert\AppData\Local\Temp\surefire8661570569693759412\surefirebooter8983278822770413529.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_271\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,11 +61,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="stringIsDigit" classname="StringUtilsTest" time="0.022"/>
+  <testcase name="stringIsDigit" classname="StringUtilsTest" time="0.019"/>
   <testcase name="numberIsDigit" classname="StringUtilsTest" time="0"/>
-  <testcase name="digIsDigit" classname="StringUtilsTest" time="0.001"/>
-  <testcase name="spaceIsDigit" classname="StringUtilsTest" time="0"/>
+  <testcase name="digIsDigit" classname="StringUtilsTest" time="0"/>
+  <testcase name="spaceIsDigit" classname="StringUtilsTest" time="0.001"/>
   <testcase name="fixedTests" classname="StringUtilsTest" time="0.001"/>
-  <testcase name="letterIsDigit" classname="StringUtilsTest" time="0.001"/>
+  <testcase name="letterIsDigit" classname="StringUtilsTest" time="0"/>
   <testcase name="emptyIsDigit" classname="StringUtilsTest" time="0.001"/>
 </testsuite>
